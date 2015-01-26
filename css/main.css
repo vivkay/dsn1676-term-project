@@ -18,6 +18,14 @@ html {
     box-sizing: inherit;
 }
 
+.bunny {
+    position: relative;
+    width: 150px;
+    height: 10px;
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
 .body {
     position: absolute;
     top: 200px;
@@ -25,6 +33,60 @@ html {
     width: 200px;
     height: 200px;
     background-image: url(../img/body.svg);
-    -webkit-animation: box-rotate 3s ease-in-out infinite alternate;
-    animation: box-rotate 3s ease-in-out infinite alternate;
+    background-repeat: no-repeat;
+    -webkit-animation: spin 1s ease-in-out alternate infinite;
+    animation: spin 1s ease-in-out alternate infinite;
 }
+
+@-webkit-keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+.front-foot {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/foot.svg);
+    -webkit-animation: front-foot 1s linear infinite;
+    animation: front-foot 1s linear infinite; 
+}
+
+@-webkit-keyframes front-foot {
+        0% {
+        transform: translate(0);
+    }
+    
+    30% {
+        transform(
+    
+    100% {
+        transform: translate(50px, 50px);
+    }
+}
+
+@keyframes front-foot {
+    0% {
+        transform: translateY(0);
+    }
+    
+    100% {
+        transform: translateY(50px, 50px);
+    }
+}
+    
