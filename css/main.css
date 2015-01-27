@@ -34,8 +34,6 @@ html {
     height: 150px;
     background-image: url(../img/face.svg);
     background-repeat: no-repeat;
-    -webkit-animation: bob 1s ease-in-out alternate infinite;
-    animation: bob 1s ease-in-out alternate infinite;
 }
 
 .ears {
@@ -46,8 +44,6 @@ html {
     height: 150px;
     background-image: url(../img/ears.svg);
     background-repeat: no-repeat;
-    -webkit-animation: bob 1s ease-in-out alternate infinite;
-    animation: bob 1s ease-in-out alternate infinite;
 }
 
 @-webkit-keyframes bob { 
@@ -71,8 +67,6 @@ html {
     height: 150px;
     background-image: url(../img/body.svg);
     background-repeat: no-repeat;
-    -webkit-animation: spin .5s ease-in-out alternate infinite;
-    animation: spin .5s ease-in-out alternate infinite;
 }
 
 @-webkit-keyframes spin {
@@ -101,8 +95,6 @@ html {
     width: 50px;
     height: 50px;
     background-image: url(../img/foot.svg);
-    -webkit-animation: front-foot .5s ease-in-out alternate infinite;
-    animation: front-foot .5s ease-in-out alternate infinite; 
 }
 
 @-webkit-keyframes front-foot {
@@ -164,8 +156,6 @@ html {
     width: 50px;
     height: 50px;
     background-image: url(../img/foot.svg);
-    -webkit-animation: rear-foot .5s ease-in-out alternate infinite;
-    animation: rear-foot .5s ease-in-out alternate infinite; 
 }
 
 @-webkit-keyframes rear-foot {
@@ -219,6 +209,37 @@ html {
         transform: translate(100px, -70px);
     }
 }
+
+.bunny:hover .head {
+    -webkit-animation: bob 1s ease-in-out alternate infinite;
+    animation: bob 1s ease-in-out alternate infinite;
+}
+
+.bunny:hover .front-foot {
+    -webkit-animation: front-foot .5s ease-in-out alternate infinite;
+    animation: front-foot .5s ease-in-out alternate infinite; 
+}
+
+.bunny:hover .rear-foot {
+    -webkit-animation: rear-foot .5s ease-in-out alternate infinite;
+    animation: rear-foot .5s ease-in-out alternate infinite; 
+}
+
+.bunny:hover .rear-foot {
+    -webkit-animation: rear-foot .5s ease-in-out alternate infinite;
+    animation: rear-foot .5s ease-in-out alternate infinite; 
+}
+
+.bunny:hover .body {
+    -webkit-animation: spin .5s ease-in-out alternate infinite;
+    animation: spin .5s ease-in-out alternate infinite;
+}
+
+.bunny:hover .ears {
+    -webkit-animation: bob 1s ease-in-out alternate infinite;
+    animation: bob 1s ease-in-out alternate infinite;
+}
+
 
  
     
