@@ -18,6 +18,15 @@ html {
     box-sizing: inherit;
 }
 
+.headline {
+    margin: auto;
+    background-color: blue;
+}
+
+.header {
+    background-color: pink; 
+}
+
 .bunny {
     position: relative;
     width: 150px;
@@ -224,6 +233,7 @@ html {
         transform: translate(100px, -70px);
     }
 }
+
 
 .bunny:hover .head {
     -webkit-animation: bob 1s ease-in-out alternate infinite;
