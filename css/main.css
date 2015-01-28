@@ -22,8 +22,23 @@ html {
     position: relative;
     width: 150px;
     height: 10px;
-    margin: auto;
+    margin: 0 0 25% 10%;
     background-color: rgba(255, 0, 0, 0.5);
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: translate(0);
+    }
+    
+     100% {
+        transform: translate(100px, 100px);
+    }
+}
+
+.bunny:hover .bunny{
+    -webkit-animation: bounce 1s ease-in-out alternate infinite;
+    animation: bounce 1s ease-in-out alternate infinite;
 }
 
 .head {
@@ -239,6 +254,8 @@ html {
     -webkit-animation: bob 1s ease-in-out alternate infinite;
     animation: bob 1s ease-in-out alternate infinite;
 }
+
+
 
 
  
