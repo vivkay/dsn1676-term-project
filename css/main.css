@@ -35,6 +35,30 @@ html {
     background-color: rgba(255, 0, 0, 0.5);
 }
 
+.bunny:hover {
+    -webkit-animation: bounce 1s ease-in-out alternate infinite;
+    animation: bounce 1s ease-in-out alternate infinite;
+}
+
+.parent:hover {
+    -webkit-animation: move 1s ease-in-out alternate;
+    animation: move 1s ease-in-out alternate;
+}
+
+@-webkit-keyframes move {
+    0% {
+        transform: translate(0);
+    }
+    
+     50% {
+        transform: translateX(100px);
+    }
+    
+    100% {
+        transform: translateX(20px);
+    }
+}
+
 @-webkit-keyframes bounce {
     0% {
         transform: translate(0);
@@ -43,11 +67,6 @@ html {
      100% {
         transform: translate(100px, 100px);
     }
-}
-
-.bunny:hover .bunny{
-    -webkit-animation: bounce 1s ease-in-out alternate infinite;
-    animation: bounce 1s ease-in-out alternate infinite;
 }
 
 .head {

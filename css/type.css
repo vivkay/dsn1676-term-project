@@ -1,6 +1,11 @@
 html {
-  font: normal 100%/1.5 Helvetica,sans-serif;
+  font: normal 100%/1.5 'Raleway',sans-serif;
 } 
+
+.cursive {
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -31,6 +36,10 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.5rem;
+}
+
+.giant {
+    font-size: 8rem;
 }
 
 .yotta {
