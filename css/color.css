@@ -29,3 +29,16 @@
 .nautical-blue {
     background-color: #457BBD;
 }
+
+.fill {
+    color: white;
+    position: relative;
+}
+
+.stroke {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 5px #E9625A;
+    -webkit-stroke-offset: 10px;
+}
+
