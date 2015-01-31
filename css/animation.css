@@ -111,5 +111,33 @@
     }  
 }
 
-    
+/**
+.bunny-parent {
+    position: relative;
+}
+**/
+
+.hat {
+    background-image: url(../img/hat.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.head {
+    background-image: url(../img/head.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.cape {
+    background-image: url(../img/cape-01.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
 
