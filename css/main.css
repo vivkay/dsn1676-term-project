@@ -32,3 +32,11 @@ body {
     margin: auto;
     background-color: blue;
 }
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
