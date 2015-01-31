@@ -41,6 +41,7 @@ fieldset, pre, table {
 .giant {
     font-size: 8rem;
     line-height: .6;
+    background-color: red;
 }
 
 .intro {
