@@ -1,2 +1,20 @@
 /** ANIMATION STYLESHEET: LET THERE BE LIFEEEEE! **/
 
+.h1-slide {
+    -webkit-animation: right-in 1s ease-in-out alternate infinite;
+    animation: right-in 1s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes right-in {
+ 0% {
+         opacity: 0;   
+         transform: translateY(0);
+    }
+    
+    100% {
+        opacity: 100;
+        transform: translateY(20px);
+    }
+}
+
+
