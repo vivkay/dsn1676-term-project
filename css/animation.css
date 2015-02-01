@@ -107,9 +107,9 @@
 }
 
 
-.test-slide2 {
+.delay-slide {
     transform: translateX(3000px);
-    -webkit-animation: right-in 2s linear;
+    -webkit-animation: right-in 2s linear forwards;
     animation: right-in 2s linear;
     -webkit-animation-delay: 1s;
     -animation-delay: 1s;
