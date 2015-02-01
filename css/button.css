@@ -1,5 +1,6 @@
 .button-mint {
     display: block;
+    margin: 0, auto;
     position: absolute;
     border: 10px solid #fff;
     border-radius: 100px;
