@@ -106,7 +106,6 @@
     }
 }
 
-
 .delay-slide {
     transform: translateX(3000px);
     -webkit-animation: right-in 2s linear forwards;
@@ -114,7 +113,6 @@
     -webkit-animation-delay: 1s;
     -animation-delay: 1s;
 }
-
 
 .jiggle {
     -webkit-animation: jiggle 2s ease-in-out;
@@ -149,9 +147,10 @@
     position: relative;
 }
 
-.hat {
-    background-image: url(../img/hat.png);
+.bunny {
     position: absolute;
+    background-image: url(../img/bunny.png);
+    background-size: 20%;
     top: -100px;
     left: 100px;
     width: 100em;
@@ -159,12 +158,38 @@
     background-repeat: no-repeat;
 }
 
-.head {
-    background-image: url(../img/head.png);
-    position: absolute;
-    top: -100px;
-    width: 100%;
-    height: 100em;
-    background-repeat: no-repeat;
+.bounce {
+    -webkit-animation: bounce 3s linear infinite;
+    animation: bounce 3s linear infinite;
 }
+
+@-webkit-keyframes bounce {
+    
+    20% {
+        transform: translateY(20px)
+    }
+    
+    80% {
+        transform: translateY(40px)
+    }   
+}
+
+.appear {
+        -webkit-animation: appear 3s linear infinite;
+    animation: appear 3s linear infinite;
+}
+
+@-webkit-keyframes appear {
+    
+    20% {
+        opacity: 0;
+    }
+    
+    80% {
+        opacity: 100;
+    }   
+}
+
+    
+
 
