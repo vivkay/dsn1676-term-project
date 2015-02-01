@@ -2,7 +2,7 @@
     background-color: #FAF6E2;
 }
 
-.beige {
+.sand {
     background-color: #E1D6C3;
 }
 
@@ -30,28 +30,9 @@
     background-color: #457BBD;
 }
 
-/**
-.title {
-    position: relative;
+.navy-type {
+    color: #895953;
 }
-**/
+    
 
-.fill {
-    color: white;
-}
-
-.shadow
-
-/**
-.stroke {
-    color: white;
-    position: absolute;
-    webkit-stroke-offset: 2px;
-    height: 100px;
-    width: 100px;
-    top: 15%;
-    right: 50%;
-    -webkit-text-stroke: 4px #E9625A;
-}
-**/
 

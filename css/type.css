@@ -7,6 +7,14 @@ html {
     font-style: italic;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
@@ -39,13 +47,14 @@ fieldset, pre, table {
 }
 
 .giant {
-    font-size: 5rem;
+    font-size: 8rem;
     line-height: .6;
 }
 
 .intro {
     font-size: 1.125rem;
     line-height: 1.25;
+    font-weight: normal;
 }
 
 .yotta {

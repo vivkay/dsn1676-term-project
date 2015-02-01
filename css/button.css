@@ -1,0 +1,21 @@
+.button-mint {
+    border: 10px solid #fff;
+    border-radius: 100px;
+    font-size: 1.25rem;
+    font-family: "quattrocento sans", sans-serif;
+    padding: 20px;
+    text-decoration: none; 
+    display: block;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #fff;
+    background-color: #89CDC2; 
+    float: right;
+    margin-right: 30px;
+}
+
+.button-mint:hover {
+    cursor: pointer;
+    border:0; 
+    background-color: #fff;
+}
