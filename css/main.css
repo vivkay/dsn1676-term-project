@@ -45,4 +45,10 @@ body {
     position: relative;
 }
 
+.bunny-body {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 200%;
+}
 
