@@ -30,22 +30,28 @@
     background-color: #457BBD;
 }
 
+/**
 .title {
     position: relative;
 }
+**/
 
 .fill {
     color: white;
-    position: absolute;
 }
 
+.shadow
+
+/**
 .stroke {
+    color: white;
     position: absolute;
-    height: 120px;
+    webkit-stroke-offset: 2px;
+    height: 100px;
     width: 100px;
-    top: 60%;
-    right: 75%;
-    color: transparent;
+    top: 15%;
+    right: 50%;
     -webkit-text-stroke: 4px #E9625A;
 }
+**/
 

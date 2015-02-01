@@ -88,6 +88,7 @@
 }
 
 @-webkit-keyframes right-in {
+    
     0% {   
         transform: translateX(3000px);
         }
@@ -101,13 +102,14 @@
     }
     
     100% {
-        transform: translateX(0px);
+        transform: translateX(10px);
     }
 }
 
 
 .test-slide2 {
-    -webkit-animation: right-in 1s linear;
+    transform: translateX(3000px);
+    -webkit-animation: right-in 2s linear;
     animation: right-in 2s linear;
     -webkit-animation-delay: 1s;
     -animation-delay: 1s;

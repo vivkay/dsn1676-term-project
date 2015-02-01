@@ -39,9 +39,8 @@ fieldset, pre, table {
 }
 
 .giant {
-    font-size: 8rem;
+    font-size: 5rem;
     line-height: .6;
-    background-color: red;
 }
 
 .intro {
