@@ -1,7 +1,7 @@
 .button-mint {
-    display: block;
-    margin: 0, auto;
     position: absolute;
+    left: 45%;
+    top: 280px;
     border: 10px solid #fff;
     border-radius: 100px;
     height: 120px;
@@ -13,7 +13,6 @@
     line-height: 1.5rem;
     color: #fff;
     background-color: #89CDC2; 
-    float: center;
 }
 
 .button-mint:hover {

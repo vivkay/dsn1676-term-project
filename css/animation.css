@@ -147,36 +147,64 @@
     position: relative;
 }
 
-.bunny {
+.body {
     position: absolute;
-    background-image: url(../img/bunny.png);
-    background-size: 20%;
-    top: -100px;
-    left: 100px;
-    width: 100em;
-    height: 100em;
-    background-repeat: no-repeat;
+    top: 30%;
+    left: 10%;
+    width: 30%;
+}
+
+.head {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 30%;
 }
 
 .bounce {
-    -webkit-animation: bounce 3s linear infinite;
-    animation: bounce 3s linear infinite;
+    -webkit-animation: bounce 3s linear alternate infinite;
+    animation: bounce 3s linear alternateinfinite;
 }
 
 @-webkit-keyframes bounce {
     
-    20% {
+    0% {
         transform: translateY(20px)
     }
     
     80% {
-        transform: translateY(40px)
+        transform: translateY(30px)
     }   
 }
 
+.bounce-head {
+    -webkit-animation: bounce-head 3s linear alternate infinite;
+    animation: bounce-head 3s linear alternate infinite;
+}
+
+@-webkit-keyframes bounce-head {
+    
+    0% {
+        transform: translate(-10px, -20px)
+    }
+    
+    50% {
+        transform: translateX (15px)
+    }
+    
+    80% {
+        transform: translate(0px, -30px)
+    }   
+    
+    100% {
+        transform: translate(10px, -40px)
+    }
+}
+
 .appear {
-        -webkit-animation: appear 3s linear infinite;
-    animation: appear 3s linear infinite;
+    opacity: 0;
+    -webkit-animation: appear 5s linear forwards;
+    animation: appear 5s linear forwards;
 }
 
 @-webkit-keyframes appear {
@@ -185,7 +213,7 @@
         opacity: 0;
     }
     
-    80% {
+    100% {
         opacity: 100;
     }   
 }
