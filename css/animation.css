@@ -116,24 +116,15 @@
     }   
 }
 
-.bounce-head {
-    -webkit-animation: bounce-head 3s linear alternate infinite;
-    animation: bounce-head 3s linear alternate infinite;
-}
-
-@-webkit-keyframes bounce-head {
+@keyframes bounce {
     
     0% {
-        transform: translateY(-20px);
+        transform: translateY(20px)
     }
     
     80% {
-        transform: translateY(-30px);
+        transform: translateY(30px)
     }   
-    
-    100% {
-        transform: translateY(-40px);
-    }
 }
 
 .appear {
@@ -141,11 +132,22 @@
     -webkit-animation: appear 5s linear forwards;
     animation: appear 5s linear forwards;
     -webkit-animation-delay: 3s;
-    animation-delay: 3s;
-    
+    animation-delay: 3s;  
 }
 
 @-webkit-keyframes appear {
+    
+    20% {
+        opacity: 0;
+        transform: rotate(10);
+    }
+    
+    100% {
+        opacity: 100;
+    }   
+}
+
+@keyframes appear {
     
     20% {
         opacity: 0;
