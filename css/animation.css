@@ -154,8 +154,8 @@
     position: absolute;
     top: -100px;
     left: 100px;
-    width: 100%;
-    height: 100%;
+    width: 100em;
+    height: 100em;
     background-repeat: no-repeat;
 }
 
@@ -163,9 +163,8 @@
     background-image: url(../img/head.png);
     position: absolute;
     top: -100px;
-    left: 100px;
     width: 100%;
-    height: 100%;
+    height: 100em;
     background-repeat: no-repeat;
 }
 
