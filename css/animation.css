@@ -111,7 +111,7 @@
     -webkit-animation: right-in 2s linear forwards;
     animation: right-in 2s linear;
     -webkit-animation-delay: 1s;
-    -animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 .jiggle {
@@ -151,19 +151,19 @@
     position: absolute;
     top: 30%;
     left: 10%;
-    width: 30%;
+    width: 200%;
 }
 
 .head {
     position: absolute;
     top: 30%;
     left: 10%;
-    width: 30%;
+    width: 90%;
 }
 
 .bounce {
     -webkit-animation: bounce 3s linear alternate infinite;
-    animation: bounce 3s linear alternateinfinite;
+    animation: bounce 3s linear alternate infinite;
 }
 
 @-webkit-keyframes bounce {
@@ -185,19 +185,15 @@
 @-webkit-keyframes bounce-head {
     
     0% {
-        transform: translate(-10px, -20px)
-    }
-    
-    50% {
-        transform: translateX (15px)
+        transform: translateY(-20px);
     }
     
     80% {
-        transform: translate(0px, -30px)
+        transform: translateY(-30px);
     }   
     
     100% {
-        transform: translate(10px, -40px)
+        transform: translateY(-40px);
     }
 }
 
@@ -205,12 +201,16 @@
     opacity: 0;
     -webkit-animation: appear 5s linear forwards;
     animation: appear 5s linear forwards;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    
 }
 
 @-webkit-keyframes appear {
     
     20% {
         opacity: 0;
+        transform: rotate(10);
     }
     
     100% {
