@@ -1,7 +1,8 @@
 .button-mint {
     position: absolute;
-    left: 45%;
-    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px;
     border: 10px solid #fff;
     border-radius: 100px;
     height: 120px;
@@ -13,6 +14,7 @@
     line-height: 1.5rem;
     color: #fff;
     background-color: #89CDC2; 
+    margin: 0;
 }
 
 .button-mint:hover {
