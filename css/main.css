@@ -43,7 +43,9 @@ body {
 
 .parent {
     position: relative;
-    padding-top: 129%;
+    width: 140px;
+    height: 180px;
+    margin: 0 auto;
 }
 
 .bunny-body {
@@ -55,4 +57,28 @@ body {
 
 .banner {
     position: relative;
+}
+
+@media only screen and (min-width: 60em) {
+	 html {
+		 font-size: 110%;
+	 }
+    
+    .small-center {
+        text-align: center;
+    }
+
+}
+	
+@media only screen and (min-width: 90em) {
+	 html {
+		 font-size: 120%;
+	 }
+    
+}
+	
+@media only screen and (min-width: 120em) {
+	 html {
+		 font-size: 130%;
+	 }
 }

@@ -4,8 +4,6 @@
     transform: translateX(3000px);
     -webkit-animation: right-in 2s linear forwards;
     animation: right-in 2s linear;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
 }
 
 @-webkit-keyframes right-in {
@@ -47,8 +45,8 @@
 }
 
 .jiggle {
-    -webkit-animation: jiggle 2s ease-in-out;
-    animation: jiggle 2s ease-in-out;
+    -webkit-animation: jiggle 1s ease-in-out;
+    animation: jiggle 1s ease-in-out;
 }
 
 @-webkit-keyframes jiggle {
@@ -128,10 +126,10 @@
 
 .appear {
     opacity: 0;
-    -webkit-animation: appear 5s linear forwards;
-    animation: appear 5s linear forwards;
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;  
+    -webkit-animation: appear 1s linear forwards;
+    animation: appear 1s linear forwards;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;  
 }
 
 @-webkit-keyframes appear {
@@ -160,8 +158,8 @@
 
 .appear2 {
     opacity: 0;
-    -webkit-animation: appear 5s linear forwards;
-    animation: appear 5s linear forwards;
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;  
+    -webkit-animation: appear 1s linear forwards;
+    animation: appear 1s linear forwards;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;  
 }
