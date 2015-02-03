@@ -15,6 +15,7 @@
     color: #fff;
     background-color: #89CDC2; 
     margin: 0;
+    transition: all 250ms linear;
 }
 
 .button-mint:hover {

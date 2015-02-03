@@ -40,13 +40,18 @@ fieldset, pre, table {
 
 .giant {
     font-size: 8rem;
-    line-height: .6;
+    line-height: 5rem;
 }
 
 .intro {
     font-size: 1.125rem;
-    line-height: 1.25;
+    line-height: 1.5;
     font-weight: normal;
+}
+
+.kilo2 {
+    font-size: 1.0000rem;
+    line-height: 1.25000;
 }
 
 .yotta {
@@ -165,6 +170,14 @@ sub {
 
 .pad-bottom, .pad-b {
   padding-bottom: 1.5rem;
+}
+
+.pad-left, .pad-l {
+  padding-left: 1.5rem;
+}
+
+.pad-right, .pad-r {
+  padding-right: 1.5rem;
 }
 
 .pad-top-double, .pad-t-2 {
