@@ -1,27 +1,28 @@
 /** ANIMATION STYLESHEET: LET THERE BE LIFEEEEE! **/
 
 .delay-slide {
+    -webkit-transform: translateX(3000px);
     transform: translateX(3000px);
     -webkit-animation: right-in 2s linear forwards;
-    animation: right-in 2s linear;
+    animation: right-in 2s linear forwards;
 }
 
 @-webkit-keyframes right-in {
     
     0% {   
-        transform: translateX(3000px);
+        -webkit-transform: translateX(3000px);
         }
     
     80% {
-        transform: translateX(-20px);
+        -webkit-transform: translateX(-20px);
     }
     
     90% {
-        transform: translateX(40px);
+        -webkit-transform: translateX(40px);
     }
     
     100% {
-        transform: translateX(-10px);
+        -webkit-transform: translateX(-10px);
     }
 }
 
@@ -44,59 +45,6 @@
     }
 }
 
-.jiggle {
-    -webkit-animation: jiggle 1s ease-in-out;
-    animation: jiggle 1s ease-in-out;
-}
-
-@-webkit-keyframes jiggle {
-    20% {
-        opacity: 0;
-        transform: rotate3d(0, 0, 1, 15deg);
-    }
-    
-    40% {
-        transform: rotate3d(0, 0, 1, -10deg);
-    }  
-    
-    60% {
-        transform: rotate3d(0, 0, 1, 5deg);
-    }  
-
-    80% {
-        transform: rotate3d(0, 0, 1, -5deg);
-    }  
-    
-    100% {
-        opacity: 100;
-        transform: rotate3d(0, 0, 1, 0deg);
-    }  
-}
-
-@keyframes jiggle {
-    20% {
-        opacity: 0;
-        transform: rotate3d(0, 0, 1, 15deg);
-    }
-    
-    40% {
-        transform: rotate3d(0, 0, 1, -10deg);
-    }  
-    
-    60% {
-        transform: rotate3d(0, 0, 1, 5deg);
-    }  
-
-    80% {
-        transform: rotate3d(0, 0, 1, -5deg);
-    }  
-    
-    100% {
-        opacity: 100;
-        transform: rotate3d(0, 0, 1, 0deg);
-    }  
-}
-
 .bounce {
     -webkit-animation: bounce 3s linear alternate infinite;
     animation: bounce 3s linear alternate infinite;
@@ -105,11 +53,11 @@
 @-webkit-keyframes bounce {
     
     0% {
-        transform: translateY(20px)
+        -webkit-transform: translateY(20px)
     }
     
     80% {
-        transform: translateY(30px)
+        -webkit-transform: translateY(30px)
     }   
 }
 
@@ -136,7 +84,7 @@
     
     20% {
         opacity: 0;
-        transform: rotate(10);
+        -webkit-transform: rotate(10);
     }
     
     100% {
@@ -163,3 +111,17 @@
     -webkit-animation-delay: 3s;
     animation-delay: 3s;  
 }
+
+.color-transition {
+    color: #282C4E;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 200ms;
+    transition-property: color;
+    transition: all 200ms linear;
+}
+
+.color-transition:hover {
+    color: #89CDC2;
+}
+
+    
