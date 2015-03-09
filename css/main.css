@@ -89,6 +89,7 @@ body {
     padding: 0;
     margin: 20px;
     border: 0;
+    outline-color: #E1D6C3;
 }
 
 .ham-btn {
@@ -118,11 +119,31 @@ nav a {
     color: #282C4E;
     width: 100%;
     padding: 25px;
-
 }
 
 nav a:hover {
     background-color: #E1D6C3;
+}
+
+.tab-img {
+    width: 100%;
+}
+
+.window-img {
+    width: 100%;
+}
+
+.tab {
+    list-style: none;
+    padding: 0;
+}
+
+.pad-0 {
+    padding: 0;
+}
+
+[hidden] {
+    display: none;
 }
 
 @media only screen and (min-width: 25em) {

@@ -50,30 +50,34 @@
     </header>
 
     <main>
-        <div class="grid grid-middle">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3 island">
-                <a href="#">
-                    <img src="img/kitten.jpg" alt="placeholder">
-                </a>
-            </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3 island">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="img/kitten.jpg" alt="placeholder">
+        <div class="grid grid-stretch island-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-push-m-2-3 unit-l-1-3 unit-push-l-2-3">
+                <ul class="tabs pad-0">
+                    <li class="tab">
+                        <a href="#tab-header" class="js-current">
+                            <img src="img/kitten.jpg" alt="placeholder" class="tab-img">
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/kitten.jpg" alt="placeholder">
+                    <li class="tab">
+                        <a href="#tab-body" class="hidden">
+                            <img src="img/kitten.jpg" alt="placeholder" class="tab-img">
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/kitten.jpg" alt="placeholder">
+                    <li class="tab">
+                        <a href="#tab-footer" class="hidden">
+                            <img src="img/kitten.jpg" alt="placeholder" class="tab-img">
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="panel unit unit-xs-1 unit-s-1 unit-m-2-3 unit-pull-m-1-3 unit-l-2-3 unit-pull-m-1-3">
+                <img src="img/kitten1.jpg" alt="placeholder" id="tab-header" class="window-img">
+            </div>
+            <div class="panel unit unit-xs-1 unit-s-1 unit-m-2-3 unit-pull-m-1-3 unit-l-2-3 unit-pull-m-1-3">
+                <img src="img/kitten2.jpg" alt="placeholder" id="tab-body" class="window-img" hidden>
+            </div>
+            <div class="panel unit unit-xs-1 unit-s-1 unit-m-2-3 unit-pull-m-1-3 unit-l-2-3 unit-pull-m-1-3">
+                <img src="img/kitten3.jpg" alt="placeholder" id="tab-footer" class="window-img" hidden>
             </div>
         </div>
     </main>
