@@ -68,25 +68,29 @@ body {
         text-align: center;
     }
 
+.panel {
+    display: none;
+}
+
 @media only screen and (min-width: 25em) {
 .small-title {
         font-size: 6rem;
     }
 
 }
-	
+
 @media only screen and (min-width: 38em) {
     .small-center {
         text-align: left;
     }
-    
+
     .small-title {
         font-size: 8rem;
     }
-    
-    
+
+
 }
-	
+
 @media only screen and (min-width: 60em) {
 
 }
