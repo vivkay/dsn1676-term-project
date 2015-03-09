@@ -13,5 +13,8 @@ $tabs.on('click', 'a', function (e) {
 
   $panels.filter(':not([hidden])').attr('hidden', true);
   $(id).removeAttr('hidden');
+
+  $tabs.find('.js-current').removeClass('js-current');
+  $(this).addClass('js-current');
 });
 
