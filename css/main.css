@@ -131,6 +131,9 @@ nav a:hover {
 
 .window-img {
     width: 100%;
+    text-align: center;
+    border: 20px solid #FAF6E2;
+    padding: 210px;
 }
 
 .tab {
