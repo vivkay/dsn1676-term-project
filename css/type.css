@@ -1,6 +1,6 @@
 html {
   font: normal 100%/1.5 'Raleway',sans-serif;
-} 
+}
 
 .cursive {
     font-family: 'Volkhov', serif;
@@ -162,6 +162,10 @@ sub {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3750rem;
+}
+
+.push-r {
+  margin-left: 1.5rem;
 }
 
 .pad-top, .pad-t {

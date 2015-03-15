@@ -126,14 +126,19 @@ nav a:hover {
 }
 
 .tab-img {
-    width: 100%;
+    width: 140px;
+    height: 140px;
+    border: 5px solid #FAF6E2;
 }
 
-.window-img {
+.window-txt {
     width: 100%;
+    height: 435px;
     text-align: center;
     border: 20px solid #FAF6E2;
-    padding: 210px;
+    padding-top: 20%;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .tab {
@@ -143,6 +148,18 @@ nav a:hover {
 
 .pad-0 {
     padding: 0;
+}
+
+.pad-txt {
+    padding-top: 100px;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.push-r {
+  margin-left: 5rem;
 }
 
 [hidden] {
