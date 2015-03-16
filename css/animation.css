@@ -84,7 +84,6 @@
 
     20% {
         opacity: 0;
-        -webkit-transform: rotate(10);
     }
 
     100% {
@@ -96,7 +95,6 @@
 
     20% {
         opacity: 0;
-        transform: rotate(10);
     }
 
     100% {
@@ -143,13 +141,10 @@
 @keyframes jiggle {
 
     0% {
-        transform: translateY(-1deg)
+        transform: rotate(-1deg)
     }
 
     100% {
-        transform: translateY(1deg)
+        transform: rotate(1deg)
     }
-
 }
-
-    }
