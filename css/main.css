@@ -185,13 +185,15 @@ nav a:hover {
 }
 
 .tab-panel h4,
-.tab-panel p{
+.tab-panel p,
+.tab-panel img {
     opacity: 0;
     transition: all 200ms linear;
 }
 
 .js-appear h4,
-.js-appear p{
+.js-appear p,
+.js-appear img {
     opacity: 1;
 }
 
@@ -206,8 +208,8 @@ nav a:hover {
 h5 span {
   max-width: 0;
   overflow: hidden;
-  display; inline-block;
-  animation: show-letter 50ms linear forwards;
+  float: left;
+  animation: show-letter 1s linear forwards;
 }
 
 h5 span:nth-child(1) {
@@ -218,16 +220,24 @@ h5 span:nth-child(2) {
 }
 
 h5 span:nth-child(3) {
-  animation-delay: 5s;
+  animation-delay: .5s;
 }
 
 h5 span:nth-child(4) {
   animation-delay: 1s;
 }
 
+h5 span:nth-child(5) {
+  animation-delay: 1.25s;
+}
+
+h5 span:nth-child(6) {
+  animation-delay: 1.5s;
+}
+
 @keyframes show-letter {
   0% { max-width: 0; }
-  100% { max-width: 2em; }
+  100% { max-width: 10em; }
 }
 
 .island-2-media {
