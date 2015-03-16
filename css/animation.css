@@ -8,38 +8,38 @@
 }
 
 @-webkit-keyframes right-in {
-    
-    0% {   
+
+    0% {
         -webkit-transform: translateX(3000px);
         }
-    
+
     80% {
         -webkit-transform: translateX(-20px);
     }
-    
+
     90% {
         -webkit-transform: translateX(40px);
     }
-    
+
     100% {
         -webkit-transform: translateX(-10px);
     }
 }
 
 @keyframes right-in {
-    
-    0% {   
+
+    0% {
         transform: translateX(3000px);
         }
-    
+
     80% {
         transform: translateX(-20px);
     }
-    
+
     90% {
         transform: translateX(40px);
     }
-    
+
     100% {
         transform: translateX(-10px);
     }
@@ -51,25 +51,25 @@
 }
 
 @-webkit-keyframes bounce {
-    
+
     0% {
         -webkit-transform: translateY(20px)
     }
-    
+
     80% {
         -webkit-transform: translateY(30px)
-    }   
+    }
 }
 
 @keyframes bounce {
-    
+
     0% {
         transform: translateY(20px)
     }
-    
+
     80% {
         transform: translateY(30px)
-    }   
+    }
 }
 
 .appear {
@@ -77,31 +77,31 @@
     -webkit-animation: appear 1s linear forwards;
     animation: appear 1s linear forwards;
     -webkit-animation-delay: 2.5s;
-    animation-delay: 2.5s;  
+    animation-delay: 2.5s;
 }
 
 @-webkit-keyframes appear {
-    
+
     20% {
         opacity: 0;
         -webkit-transform: rotate(10);
     }
-    
+
     100% {
         opacity: 100;
-    }   
+    }
 }
 
 @keyframes appear {
-    
+
     20% {
         opacity: 0;
         transform: rotate(10);
     }
-    
+
     100% {
         opacity: 100;
-    }   
+    }
 }
 
 .appear2 {
@@ -109,7 +109,7 @@
     -webkit-animation: appear 1s linear forwards;
     animation: appear 1s linear forwards;
     -webkit-animation-delay: 3s;
-    animation-delay: 3s;  
+    animation-delay: 3s;
 }
 
 .color-transition {
@@ -124,4 +124,32 @@
     color: #89CDC2;
 }
 
-    
+.jiggle {
+    -webkit-animation: jiggle .5s ease alternate infinite;
+    animation: jiggle .5s ease alternate infinite;
+}
+
+@-webkit-keyframes jiggle {
+
+    0% {
+        -webkit-transform: rotate(-1deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(1deg)
+    }
+}
+
+@keyframes jiggle {
+
+    0% {
+        transform: translateY(-1deg)
+    }
+
+    100% {
+        transform: translateY(1deg)
+    }
+
+}
+
+    }

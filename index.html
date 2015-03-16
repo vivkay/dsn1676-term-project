@@ -15,14 +15,6 @@
 </head>
 <body>
 
-<!--Thomas Questions:
-    1. Fix spacing at small screen size
-    2. How to add effects when hiding/showing different displays?
-    2. How to add effect to toggle panel for nav? Like delayed stacking of divs?
-    2c. Does hamburger have to disappear at large size (into menu)?
-    3. Animated letters (a. animation property, b. small screen size, c. triggered animation with js)
--->
-
     <div class="cream">
         <button class="ham-btn">Toggle</button>
             <nav class="panel navigation">
@@ -62,7 +54,7 @@
     <!--This is the full screen version with toggle panels-->
         <h2 class="intro navy-type pad-txt island" id="intro">HTML is like the skeleton of your website. It provides the structure, and starts with an overall < body > element that can be then divided into three basic bits: header, main and footer!</h2>
 
-        <div class="grid grid-stretch island-2 push-r">
+        <div class="grid grid-stretch island-2-media push-r">
             <div class="unit unit-xs-hidden unit-s-hidden unit-m-1-3 unit-push-m-2-3 unit-l-1-3 unit-push-l-2-3">
                 <ul class="tabs pad-0">
                     <li class="tab">
@@ -86,6 +78,7 @@
                 <div class="tab-panel js-appear window-txt pos-abs">
                     <h4> &lt; Click &gt; </h4>
                     <p>Click one of the panels on the side to learn more.</p>
+                    <img src="img/arrow.svg" class="jiggle">
                 </div>
                 <div id="tab-header" class="tab-panel window-txt pos-abs">
                     <h4> &lt; header &gt; </h4>

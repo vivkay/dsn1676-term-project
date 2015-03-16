@@ -185,13 +185,13 @@ nav a:hover {
 }
 
 .tab-panel h4,
-.tab-panel p {
+.tab-panel p{
     opacity: 0;
     transition: all 200ms linear;
 }
 
 .js-appear h4,
-.js-appear p {
+.js-appear p{
     opacity: 1;
 }
 
@@ -230,11 +230,17 @@ h5 span:nth-child(4) {
   100% { max-width: 2em; }
 }
 
-
+.island-2-media {
+  padding: 3.0000rem;
+}
 
 @media only screen and (min-width: 25em) {
-.small-title {
-        font-size: 6rem;
+    .small-title {
+            font-size: 6rem;
+        }
+
+    .island-2-media {
+        padding: 0;
     }
 
 }
@@ -248,6 +254,9 @@ h5 span:nth-child(4) {
         font-size: 8rem;
     }
 
+    .island-2-media {
+      padding: 3.0000rem;
+    }
 
 }
 
