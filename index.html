@@ -60,7 +60,7 @@
     <main>
 
     <!--This is the full screen version with toggle panels-->
-        <h2 class="intro navy-type pad-txt island">HTML is like the skeleton of your website. It provides the structure, and starts with an overall < body > element that can be then divided into three basic bits: header, main and footer!</h2>
+        <h2 class="intro navy-type pad-txt island" id="intro">HTML is like the skeleton of your website. It provides the structure, and starts with an overall < body > element that can be then divided into three basic bits: header, main and footer!</h2>
 
         <div class="grid grid-stretch island-2 push-r">
             <div class="unit unit-xs-hidden unit-s-hidden unit-m-1-3 unit-push-m-2-3 unit-l-1-3 unit-push-l-2-3">
@@ -71,28 +71,28 @@
                         </a>
                     </li>
                     <li class="tab">
-                        <a href="#tab-body" class="hidden">
+                        <a href="#tab-body">
                             <img src="img/skel2.svg" alt="placeholder" class="tab-img">
                         </a>
                     </li>
                     <li class="tab">
-                        <a href="#tab-footer" class="hidden">
+                        <a href="#tab-footer">
                             <img src="img/skel3.svg" alt="placeholder" class="tab-img">
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="unit unit-xs-hidden unit-s-hidden unit-m-2-3 unit-pull-m-1-3 unit-l-2-3 unit-pull-m-1-3">
-                <div id="tab-header" class="tab-panel window-txt">
-                    <h4> < header > </h4>
+            <div class="unit unit-xs-hidden unit-s-hidden unit-m-2-3 unit-pull-m-1-3 unit-l-2-3 unit-pull-m-1-3 pos-rel">
+                <div id="tab-header" class="tab-panel window-txt pos-abs">
+                    <h4> &lt; header &gt; </h4>
                     <p>The entire body of your HTML code starts with a <span class="mint-txt">< header ></span> element. This is where you put the face of your website: the attractive billboard, descriptive statement and maybe a call-to-action button to prompt visitor interaction!</p>
                 </div>
-                <div id="tab-body" class="tab-panel window-txt" hidden>
-                    <h4> < main > </h4>
+                <div id="tab-body" class="tab-panel window-txt pos-abs">
+                    <h4> &lt; main &gt; </h4>
                     <p>The <span class="mint-txt">< main ></span> part of your code is where you put your core information. This is where you'll find text and links and images–and sometimes some fun animations and transitions! This is where you put the heart and soul of your bunny…I mean website.</p>
                 </div>
-                <div id="tab-footer" class="tab-panel window-txt" hidden>
-                    <h4> < footer > </h4>
+                <div id="tab-footer" class="tab-panel window-txt pos-abs">
+                    <h4> &lt; footer &gt; </h4>
                     <p class="window-img">Your website will end with a <span class="mint-txt">< footer ></span> element. This is where you put your copyright information, date and sometimes your contact information. You might also want to add social media links and, if your site is rather large, another navigational menu to help your visitors find the juiciest parts of your site!</p>
                 </div>
             </div>
@@ -102,20 +102,21 @@
          <div class="grid grid-stretch island-2 center">
          <div class="unit unit-xs-1 unit-s-1 unit-m-hidden unit-l-hidden">
             <img src="img/skel1.svg" class="img-border">
-            <h4 class=> < header > </h4>
+            <h4 class=""> &lt; header &gt; </h4>
             <p class="border-bottom pad-b">The entire body of your HTML code starts with a <span class="mint-txt">< header ></span> element. This is where you put the face of your website: the attractive billboard, descriptive statement and maybe a call-to-action button to prompt visitor interaction!</p>
          </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-hidden unit-l-hidden">
             <img src="img/skel2.svg" class="img-border">
-            <h4 class="pad-t"> < main > </h4>
+            <h4 class="pad-t"> &lt; main &gt; </h4>
             <p class="border-bottom pad-b">The <span class="mint-txt">< main ></span> part of your code is where you put your core information. This is where you'll find text and links and images–and sometimes some fun animations and transitions! This is where you put the heart and soul of your bunny…I mean website.</p>
          </div>
          <div class="unit unit-xs-1 unit-s-1 unit-m-hidden unit-l-hidden">
             <img src="img/skel3.svg" class="img-border">
-            <h4 class="pad-t"> < footer > </h4>
+            <h4 class="pad-t"> &lt; footer &gt; </h4>
             <p>Your website will end with a <span class="mint-txt">< footer ></span> element. This is where you put your copyright information, date and sometimes your contact information. You might also want to add social media links and, if your site is rather large, another navigational menu to help your visitors find the juiciest parts of your site!</p>
          </div>
 
+         <div id="finale"></div>
         <h5 class="zetta navy-type pad-txt">
             <span>W</span>
             <span>o</span>

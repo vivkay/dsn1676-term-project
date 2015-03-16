@@ -69,11 +69,14 @@ body {
     }
 
 .panel {
-    display: none;
+    max-height: 0em;
+    overflow: hidden;
+    transition: all 250ms ease-out;
 }
 
 .js-panel-open {
     display: block;
+    max-height: 20em;
 }
 
 .ham-btn {
@@ -136,7 +139,7 @@ nav a:hover {
     height: 435px;
     text-align: center;
     border: 20px solid #FAF6E2;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-left: 2em;
     padding-right: 2em;
 }
@@ -176,8 +179,23 @@ nav a:hover {
     margin-bottom: 1em;
 }
 
-[hidden] {
-    display: none;
+.tab-panel h4,
+.tab-panel p {
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.js-appear h4,
+.js-appear p {
+    opacity: 1;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
 }
 
 h5 span {
