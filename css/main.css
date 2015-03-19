@@ -59,6 +59,10 @@ body {
     position: relative;
 }
 
+.arrow {
+    height: 50%;
+}
+
 .small-title {
     font-size: 4rem;
     margin-bottom: 0.4rem;
