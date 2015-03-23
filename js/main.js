@@ -22,4 +22,4 @@ $('.top-nav').localScroll();
 
 $('.top-scroll').localScroll();
 
-$('.button-mint').localScroll();
+$('.top-scroll-button').localScroll();
