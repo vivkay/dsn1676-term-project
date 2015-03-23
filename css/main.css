@@ -209,6 +209,10 @@ nav a:hover {
     position: absolute;
 }
 
+.top-scroll{
+    text-align: center;
+}
+
 h5 span {
   max-width: 0;
   overflow: hidden;

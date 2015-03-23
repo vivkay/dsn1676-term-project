@@ -18,3 +18,8 @@ $tabs.on('click', 'a', function (e) {
   $(this).addClass('js-current');
 });
 
+$('.top-nav').localScroll();
+
+$('.top-scroll').localScroll();
+
+$('.button-mint').localScroll();
