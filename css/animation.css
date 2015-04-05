@@ -157,7 +157,6 @@
     position:absolute;
     left: 25%;
     top: 25%;
-    background-color: blue;
     animation: FadeOut 5s ease-in-out;
 }
 
@@ -174,9 +173,7 @@
     position:absolute;
     left: 25%;
     top: 25%;
-    background-color: red;
     animation: FadeIn 5s ease-in-out;
-
 }
 
 @keyframes FadeIn {
@@ -185,6 +182,68 @@
     }
     100% {
         opacity: 1;
+    }
+}
+
+#sparkles1 {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    animation: FadeInOutOne 7s ease-in-out forwards;
+}
+
+@keyframes FadeInOutOne {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#sparkles2 {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    animation: FadeInOutTwo 5s ease-in-out forwards;
+
+}
+
+@keyframes FadeInOutTwo {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#sparkles3 {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    animation: FadeInOutThree 3s ease-in-out forwards;
+
+}
+
+@keyframes FadeInOutThree {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
     }
 }
 
