@@ -149,22 +149,43 @@
     }
 }
 
+.relative {
+    position: relative;
+}
 
 .bunny-nude {
     position:absolute;
-    left: 15%;
+    left: 25%;
+    top: 25%;
     background-color: blue;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+    animation: FadeOut 5s ease-in-out;
 }
 
-.css-bunny-styled {
+@keyframes FadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.bunny-styled {
     position:absolute;
     left: 25%;
-    width: 50%;
+    top: 25%;
     background-color: red;
+    animation: FadeIn 5s ease-in-out;
+
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Test 1
