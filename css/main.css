@@ -249,6 +249,103 @@ h5 span:nth-child(6) {
   padding: 3.0000rem;
 }
 
+
+.css-bunny {
+    width: 180px;
+    position: relative;
+    z-index: 2;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.wand {
+    position: absolute;
+    top:300px;
+    right: 100%;
+    -webkit-animation: wand 2s linear forwards;
+    animation: wand 2s linear forwards;
+}
+
+@keyframes wand {
+      0% {
+    right: 100%;
+    }
+    100% {
+    right: 54%;
+     }
+}
+
+@-webkit-keyframes wand {
+          0% {
+    right: 100%;
+    }
+    100% {
+    right: 54%;
+     }
+}
+
+.cape {
+    position: absolute;
+    width: 150px;
+    top: 140px;
+    left: 100%;
+    -webkit-animation: cape 2s linear forwards;
+    animation: cape 2s linear forwards;
+}
+
+@keyframes cape {
+      0% {
+    left: 100%;
+    }
+    100% {
+    left: 45%;
+     }
+}
+
+@-webkit-keyframes cape {
+    0% {
+    left: 100%;
+    }
+    100% {
+    left: 45%;
+     }
+}
+
+.hat {
+    position: absolute;
+    z-index:3;
+    width: 180px;
+    top:-15px;
+    left: 100%;
+    -webkit-animation: hat 2s linear forwards;
+    animation: hat 2s linear forwards;
+}
+
+@keyframes hat {
+    0% {
+    left: 100%;
+    }
+    100% {
+    left: 38%;
+     }
+}
+
+@-webkit-keyframes hat {
+          0% {
+    right: 100%;
+    }
+    100% {
+    left: 38%;
+     }
+}
+
+
 @media only screen and (min-width: 25em) {
     .small-title {
             font-size: 6rem;
