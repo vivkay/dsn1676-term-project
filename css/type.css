@@ -54,6 +54,11 @@ fieldset, pre, table {
     line-height: 1.25000;
 }
 
+.half-giant {
+  font-size: 4rem;
+  line-height: 2rem;
+}
+
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;
