@@ -38,5 +38,7 @@
     background-color: #457BBD;
 }
 
-
+.navy-gradient {
+   background-image: radial-gradient(#282C4E, black);
+}
 

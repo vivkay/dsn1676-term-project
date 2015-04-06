@@ -2,6 +2,8 @@ var $hamBtn = $('.ham-btn');
 var $panel = $('.panel');
 var $tabs = $('.tabs');
 var $panels = $('.tab-panel');
+var $styled = $('.bunny-styled');
+var $sparkles = $('.sparkles');
 
 $hamBtn.on('click', function () {
   $panel.toggleClass('js-panel-open');
@@ -23,3 +25,8 @@ $('.top-nav').localScroll();
 $('.top-scroll').localScroll();
 
 $('.top-scroll-button').localScroll();
+
+$styled.waypoint (function () {
+  console.log('here');
+    {offset: '50%'};
+})

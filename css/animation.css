@@ -155,7 +155,7 @@
 
 .bunny-nude {
     position:absolute;
-    left: 25%;
+    left: calc(50% - 139.9px);
     top: 10%;
     -webkit-animation: FadeOut 5s ease-in-out;
     animation: FadeOut 5s ease-in-out;
@@ -181,7 +181,7 @@
 
 .bunny-styled {
     position:absolute;
-    left: 25%;
+    left: calc(50% - 139.9px);
     top: 10%;
     -webkit-animation: FadeIn 5s ease-in-out;
     animation: FadeIn 5s ease-in-out;
@@ -209,8 +209,8 @@
     position: absolute;
     left: 15%;
     top: 25%;
-    -webkit-animation: FadeInOutOne 7s ease-in-out forwards;
-    animation: FadeInOutOne 7s ease-in-out forwards;
+    -webkit-animation: FadeInOutOne 6s ease-in-out forwards;
+    animation: FadeInOutOne 6s ease-in-out forwards;
 }
 
 @-webkit-keyframes FadeInOutOne {
@@ -244,8 +244,8 @@
     position: absolute;
     left: 15%;
     top: 25%;
-    -webkit-animation: FadeInOutTwo 5s ease-in-out forwards;
-    animation: FadeInOutTwo 5s ease-in-out forwards;
+    -webkit-animation: FadeInOutTwo 4s ease-in-out forwards;
+    animation: FadeInOutTwo 4s ease-in-out forwards;
 
 }
 
