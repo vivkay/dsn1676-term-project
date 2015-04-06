@@ -157,15 +157,25 @@
     position:absolute;
     left: 25%;
     top: 10%;
+    -webkit-animation: FadeOut 5s ease-in-out;
     animation: FadeOut 5s ease-in-out;
+}
+
+@-webkit-keyframes FadeOut {
+    0% {
+        -webkit-opacity: 1;
+    }
+    100% {
+        -webkit-opacity: 0;
+    }
 }
 
 @keyframes FadeOut {
     0% {
-        opacity: 1;
+        -webkit-opacity: 1;
     }
     100% {
-        opacity: 0;
+        -webkit-opacity: 0;
     }
 }
 
@@ -173,7 +183,17 @@
     position:absolute;
     left: 25%;
     top: 10%;
+    -webkit-animation: FadeIn 5s ease-in-out;
     animation: FadeIn 5s ease-in-out;
+}
+
+@webkit-keyframes FadeIn {
+    0% {
+        -webkit-opacity: 0;
+    }
+    100% {
+        -webkit-opacity: 1;
+    }
 }
 
 @keyframes FadeIn {
@@ -189,8 +209,23 @@
     position: absolute;
     left: 15%;
     top: 25%;
+    -webkit-animation: FadeInOutOne 7s ease-in-out forwards;
     animation: FadeInOutOne 7s ease-in-out forwards;
 }
+
+@webkit-keyframes FadeInOutOne {
+    0% {
+        -webkit-opacity: 0;
+    }
+    50% {
+        -webkit-opacity: 1;
+    }
+
+    100% {
+        -webkit-opacity: 0;
+    }
+}
+
 
 @keyframes FadeInOutOne {
     0% {
@@ -209,8 +244,22 @@
     position: absolute;
     left: 15%;
     top: 25%;
+    -webkit-animation: FadeInOutTwo 5s ease-in-out forwards;
     animation: FadeInOutTwo 5s ease-in-out forwards;
 
+}
+
+@webkit-keyframes FadeInOutTwo {
+    0% {
+        -webkit-opacity: 0;
+    }
+    50% {
+        -webkit-opacity: 1;
+    }
+
+    100% {
+        -webkit-opacity: 0;
+    }
 }
 
 @keyframes FadeInOutTwo {
@@ -230,8 +279,22 @@
     position: absolute;
     left: 15%;
     top: 25%;
+    -webkit-animation: FadeInOutThree 3s ease-in-out forwards;
     animation: FadeInOutThree 3s ease-in-out forwards;
 
+}
+
+@webkit-keyframes FadeInOutThree {
+    0% {
+        -webkit-opacity: 0;
+    }
+    50% {
+        -webkit-opacity: 1;
+    }
+
+    100% {
+        -webkit-opacity: 0;
+    }
 }
 
 @keyframes FadeInOutThree {
