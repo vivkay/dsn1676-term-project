@@ -40,7 +40,7 @@ fieldset, pre, table {
 
 .giant {
     font-size: 8rem;
-    line-height: 5rem;
+    line-height: 10rem;
 }
 
 .intro {
@@ -56,7 +56,9 @@ fieldset, pre, table {
 
 .half-giant {
   font-size: 4rem;
-  line-height: 2rem;
+  line-height: 4.5rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .yotta {

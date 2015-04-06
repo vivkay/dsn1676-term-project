@@ -156,7 +156,7 @@
 .bunny-nude {
     position:absolute;
     left: 25%;
-    top: 25%;
+    top: 10%;
     animation: FadeOut 5s ease-in-out;
 }
 
@@ -172,7 +172,7 @@
 .bunny-styled {
     position:absolute;
     left: 25%;
-    top: 25%;
+    top: 10%;
     animation: FadeIn 5s ease-in-out;
 }
 
