@@ -155,13 +155,13 @@
 
 .bunny-nude {
     position:absolute;
-    left: calc(50%-105px);
+    left: calc(50% - 105px);
     top: 10%;
 }
 
 .bunny-styled {
     position:absolute;
-    left: calc(50%-105px);
+    left: calc(50% - 105px);
     top: 10%;
     opacity: 0;
     }
