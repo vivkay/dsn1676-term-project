@@ -68,6 +68,43 @@ body {
         text-align: center;
     }
 
+.button-mint {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px;
+    border: 10px solid #fff;
+    border-radius: 100px;
+    height: 120px;
+    font-size: 1.25rem;
+    font-family: "raleway", sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #fff;
+    background-color: #89CDC2;
+    margin: 0;
+    transition: all 250ms linear;
+}
+
+.button-mint:hover {
+    cursor: pointer;
+    border: 10px solid #fff;
+    background-color: #282C4E;
+}
+
+.top-button {
+    background-color: #89CDC2;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 20em;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
 .panel {
     max-height: 0em;
     overflow: hidden;
