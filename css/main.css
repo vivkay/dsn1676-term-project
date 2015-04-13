@@ -249,6 +249,10 @@ h5 span:nth-child(6) {
   padding: 3.0000rem;
 }
 
+a:focus {
+    outline: 3px solid #89CDC2;
+}
+
 @media only screen and (min-width: 25em) {
     .small-title {
             font-size: 6rem;
