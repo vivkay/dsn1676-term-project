@@ -55,13 +55,6 @@ fieldset, pre, table {
     line-height: 1.25000;
 }
 
-.half-giant {
-  font-size: 4rem;
-  line-height: 4.5rem;
-  padding-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;
@@ -256,3 +249,22 @@ sub {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
 }
+
+.fill {
+    color: #fff;
+}
+
+.shadow {
+    -webkit-text-stroke: 1px #E1D6C3;
+   color: #fff;
+   text-shadow: 8px 8px 0 #E1D6C3, -1px -1px 0 #E1D6C3, 1px -1px 0 #E1D6C3, -1px 1px 0 #E1D6C3, 1px 1px 0 #E1D6C3;
+    -webkit-transition-property: text-shadow;
+    -webkit-transition-duration: 2s;
+    transition-property: text-shadow;
+    transition-duration: 2s;
+}
+
+.navy-type {
+    color: #282C4E;
+}
+
