@@ -2,11 +2,6 @@ html {
   font: normal 100%/1.5 'Raleway',sans-serif;
 }
 
-.cursive {
-    font-family: 'Volkhov', serif;
-    font-style: italic;
-}
-
 @media only screen and (min-width: 60em) {
 
   html {
@@ -267,4 +262,3 @@ sub {
 .navy-type {
     color: #282C4E;
 }
-

@@ -247,41 +247,6 @@ nav a:hover {
     padding-bottom: 5em;
 }
 
-h5 span {
-  max-width: 0;
-  overflow: hidden;
-  float: left;
-  animation: show-letter 1s linear forwards;
-}
-
-h5 span:nth-child(1) {
-}
-
-h5 span:nth-child(2) {
-  animation-delay: .25s;
-}
-
-h5 span:nth-child(3) {
-  animation-delay: .5s;
-}
-
-h5 span:nth-child(4) {
-  animation-delay: 1s;
-}
-
-h5 span:nth-child(5) {
-  animation-delay: 1.25s;
-}
-
-h5 span:nth-child(6) {
-  animation-delay: 1.5s;
-}
-
-@keyframes show-letter {
-  0% { max-width: 0; }
-  100% { max-width: 10em; }
-}
-
 .island-2-media {
   padding: 3.0000rem;
 }
