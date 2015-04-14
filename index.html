@@ -16,7 +16,7 @@
 
     <div class="cream" id="top">
         <button class="ham-btn">Toggle</button>
-            <nav class="panel navigation">
+            <nav class="panel navigation" role="navigation">
                 <ul class="top-nav">
                     <li><a href="#intro">HTML</a></li>
                     <li><a href="#finale">CSS</a></li>
@@ -46,7 +46,7 @@
         </div>
     </header>
 
-    <main>
+    <main role="main">
 
     <!--This is the full screen version with toggle panels-->
         <h2 class="intro navy-type pad-txt island" id="intro">HTML is like the skeleton of your website. It provides the structure, and starts with an overall &lt;body&gt; element that can be then divided into three basic bits: header, main and footer!</h2>
@@ -117,7 +117,7 @@
                   <h1 class="yotta fill center pad-t-2">Add some style</h1>
               </div>
 
-             <div class="center relative pad-b-4">
+             <div class="center relative pad-b">
                 <svg class="bunny-nude" width="209.85" height="307.8" viewBox="0 0 279.8 410.4">
                   <path fill="#65C0B0" d="M199.9 381.6V204.4c0-6.6-5.1-12.2-11.7-12.2h-88c-6.6 0-12.3 5.6-12.3 12.2v188.1c0 9.9 8.2 17.8 18.1 17.8 9.5 0 17.5-7 18.1-17h39.8v.2c0-.1.1-.2.1-.4 0 .1.1.2.1.3v-.1.3c.6 9.4 8.3 16.9 17.8 16.9 9.9 0 17.9-8 17.9-17.9v-10.1c0-.1.1-.2.1-.4h-.1c.2-.3.1-.4.1-.5zm-.4-3.5c0 .1.1.2.1.2v.1c0-.1-.1-.2-.1-.3z"/>
                   <path fill="#FAF6E2" d="M153.9 353h-19.1c-6.6 0-12-5.4-12-12v-84c0-6.6 5.4-12 12-12h19.1c6.6 0 12 5.4 12 12v84c0 6.6-5.4 12-12 12z"/>
@@ -403,16 +403,19 @@
                       <circle cx="478" cy="208.6" r="2.9"/>
                     </g>
                   </svg>
-                  <p class="pad-txt island white-txt intro">After you create the structure of your website with HTML, use CSS to dress it up! Add colours, shapes, backgrounds, animations and more. With HTML &amp; CSS, the sky's the limit for your website&nbsp;design.</p>
+                  <p class="pad-txt-2 island white-txt intro">After you create the structure of your website with HTML, use CSS to dress it up! Add colours, shapes, backgrounds, animations and more. With HTML &amp; CSS, the sky's the limit for your website&nbsp;design.</p>
               </div>
             </div>
 
+    </main>
 
-         <div class="top-scroll">
+    <footer class="cream" >
+        <div class="top-scroll">
                 <a href="#top" class="top-button">Back to top</a>
         </div>
+        <p class="copyright milli navy-txt island" role="contentinfo">©Vivienne Kay 2015</p>
+    </footer>
 
-    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>

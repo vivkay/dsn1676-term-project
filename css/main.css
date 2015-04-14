@@ -94,15 +94,19 @@ body {
     background-color: #282C4E;
 }
 
+footer{
+    text-align: center;
+}
+
 .top-button {
     background-color: #89CDC2;
     color: white;
     border-radius: 5px;
     padding: 15px 20px;
-    width: 20em;
-    text-align: center;
+    width: 10rem;
     text-decoration: none;
-    margin-bottom: 100px;
+    display: inline-block;
+    margin-top: 2rem;
 }
 
 .panel {
@@ -203,6 +207,13 @@ nav a:hover {
     text-align: center;
 }
 
+.pad-txt-2 {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
 .push-r {
   margin-left: 5rem;
 }
@@ -244,7 +255,6 @@ nav a:hover {
 
 .top-scroll{
     text-align: center;
-    padding-bottom: 5em;
 }
 
 .island-2-media {
